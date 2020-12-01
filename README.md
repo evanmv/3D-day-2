@@ -5,10 +5,10 @@
 
 **3.  Setup this tutorial**
 ```bash
-git clone XXXX
-cd XXXX
+git clone https://github.com/MBV-INF4410/3D-day-2.git
+cd 3D-day-2
 ```
-**4. Download LAD data***
+**4. Unzip and inspect the LAD data***
 
 Download Lamin B1 ChIP-seq LADs from the same cells that we worked with yesterday:
 ```bash
@@ -18,7 +18,9 @@ gunzip lad/GSE109924_lad_D0-rep1.bed.gz
 ```
 
 ```diff
-! Look at the GSE109924_lad_D0-rep1.bed in a genome browser (IGV or UCSC genome browser). 
+
+! Look at the GSE109924_lad_D0-rep1.bed (hint: use 'head'). Do you remember what LADs were (ref. slides)?
+! Now, load the BED file in a genome browser (IGV or UCSC genome browser). 
 ! Are the LADs placed in expected regions in the genome (see slides from earlier today)?
 ```
 
