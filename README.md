@@ -4,8 +4,9 @@ Install ChimeraX on your local computer, following these instructions: https://w
 
 **2. Login to Saga**
 Log into Saga, like you have done before in the course. Then, reserve resources:
+```bash
 srun --ntasks=1 --mem-per-cpu=4G --time=2:00:00 --qos=devel --account=nn9987k --pty bash -i
-
+```
 **3.  Setup this tutorial**
 ```bash
 git clone https://github.com/MBV-INF4410/3D-day-2.git
