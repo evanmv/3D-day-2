@@ -72,6 +72,7 @@ Using the `awk` script above, the `lads.ids` now contains the ids (4th column) o
 - Change the opacity of the nucleus model by clicking the colored square called "sphere" in the "Models" panel in the bottom right of the view, and select e.g. 30%. 
 - Rotate the structure so that the chromosome model points away from you, and write `clip` in the "Command" fild to clip this nucleus into a tomographic view. The model can also be tilted to allow a better perception of depth in the structures.  (You can undo the clipping by typing `~clip`)
 - Adjust the structure so that you display the position of the chromosome inside the nucleus and the position of the LADs.
+- (optional): Play with the light settings (Simple, Soft, Full) and some of the other visualization settings.
 - Click the Save icon in the top left corer to save the structure (use .jpeg)
 - Upload the .jpg file from above this Padlet:  https://uio.padlet.org/jonaspaulsen/u03onwt5f8nuswbk
 
