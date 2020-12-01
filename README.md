@@ -1,7 +1,9 @@
 # 3D-day-2
-**1. Install ChimeraX
+**1. Install ChimeraX**
+Install ChimeraX on your local computer, following these instructions: https://www.rbvi.ucsf.edu/chimerax/download.html
 
-**2. Login to Saga
+**2. Login to Saga**
+Log into Saga, like you have done before in the course
 
 **3.  Setup this tutorial**
 ```bash
