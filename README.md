@@ -39,7 +39,7 @@ python processing_scripts/color_beads.py model.cmm lads.ids 255,0,0 OVERRIDE > m
 
 ```diff
 Using the `awk` script above, the `lads.ids` now contains the ids (4th column) of all the beads with a periphery constraint (6th column) of 1. The `color_beads.py` script specifies that all beads with ids listed in `lads.ids` should be colored in RGB value `255,0,0` (i.e. red color) in the Chrom3D output file ([CMM](https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/volumepathtracer/volumepathtracer.html#markerfiles) file format). The `OVERRIDE` keyword specifies that any existing color definitions in the file should be ignored. 
-```diff
+```
 
 **8. Visualizing `model.cmm` in ChimeraX**
 - Download the `model_readlad.cmm` file to your local computer
