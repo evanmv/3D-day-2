@@ -1,4 +1,20 @@
-# 3D-day-2
+# Generating 3D genome models from Hi-C data
+In this exercise we will be:
+- Installing a 3D visualization software called ChimeraX on your own computers
+- Logging into the Saga HPC system to perform analyses
+- Inspect data from Lamina Associated Domains (LADs)
+- Generating a 3D  model of chromosome 18 in human adipose stem cells
+- Visualizing the 3D model in ChimeraX
+- Report the results in a Padlet
+
+In some places, there are orange lines
+```diff
+! Like this
+```
+Here, you should stop and note down your answers to the questions asked. We will go through these in plenary later, so you can see if you understood correctly. Also note down any questions you might have.
+
+Good luck!
+
 **1. Install ChimeraX**
 Install ChimeraX on your own computer/laptop, following these instructions: https://www.rbvi.ucsf.edu/chimerax/download.html
 
