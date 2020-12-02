@@ -92,7 +92,7 @@ python color_beads.py model.cmm lads.ids 255,0,0 OVERRIDE > model_redlad.cmm
 
 Using the `awk` script above, the `lads.ids` now contains the ids (4th column) of all the beads with a periphery constraint (6th column) of 1. The `color_beads.py` script specifies that all beads with ids listed in `lads.ids` should be colored in RGB value `255,0,0` (i.e. red color) in the Chrom3D output file ([CMM](https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/volumepathtracer/volumepathtracer.html#markerfiles) file format). The `OVERRIDE` keyword specifies that any existing color definitions in the file should be ignored. 
 
-**10. Visualizing `model.cmm` in ChimeraX**
+**10. Visualizing `model_redlad.cmm` in ChimeraX**
 - Download the `model_readlad.cmm` file to your local computer
 - The resulting `model_readlad.cmm` can opened in ChimeraX and displays of these turned on and off in the bottom right "Models" panel. 
 - Use the command `shape sphere center 0,0,0 radius 5.0 color #ffc9b5 slab 0.5` in the "Command" field in the bottom panel to display a nucleus structure on top of the model view. 
