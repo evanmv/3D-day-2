@@ -55,7 +55,6 @@ Download the `GSE109924_lad_D0-rep1.bed` file to your local computer, and load t
 ```bash
 module purge
 module load Boost/1.72.0-iimpi-2020a
-
 wget https://github.com/Chrom3D/Chrom3D/archive/v1.0.2.tar.gz
 tar -zxvf v1.0.2.tar.gz
 cd Chrom3D-1.0.2/
