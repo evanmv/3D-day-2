@@ -45,10 +45,13 @@ gunzip GSE109924_lad_D0-rep1.bed.gz
 ! Look at the GSE109924_lad_D0-rep1.bed (hint: use 'head'). Do you remember what LADs were (ref. slides)?
 ```
 
-**6. Inspect the LAD data in a genome browser**
-Download the `GSE109924_lad_D0-rep1.bed` file to your local computer, and load the BED file in a genome browser (IGV or UCSC genome browser). 
+**6. Inspect chr 18 LAD data in a genome browser**
+```bash
+awk '$1=="chr18"' GSE109924_lad_D0-rep1.bed > lad_chr18.bed
+```
+Download the `lad_chr18.bed` file to your local computer, and load the BED file the UCSC genome browser: http://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg19 . 
 ```diff
-! Are the LADs placed in expected regions in the genome (see slides from earlier today)?
+! Are the LADs on chromosome 18 placed in expected regions in the genome (see slides from earlier today)?
 ```
 
 **7. Install Chrom3D**
