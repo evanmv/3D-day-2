@@ -100,7 +100,7 @@ Using the `awk` script above, the `lads.ids` now contains the ids (4th column) o
 - Download the `model_readlad.cmm` file to your local computer
 - The resulting `model_readlad.cmm` can opened in ChimeraX and displays of these turned on and off in the bottom right "Models" panel. 
 - Use the command `shape sphere center 0,0,0 radius 5.0 color #ffc9b5 slab 0.5` in the "Command" field in the bottom panel to display a nucleus structure on top of the model view. 
-- Change the opacity of the nucleus model by clicking the colored square called "sphere" in the "Models" panel in the bottom right of the view, and select e.g. 30%. 
+- Change the opacity of the nucleus model by clicking the colored square called "sphere" in the "Models" panel in the bottom right of the view, and select e.g. 30%. On some windows systems you will have to adjust the numbers in the "Alpha channel" to for example 100
 - Rotate the structure so that the chromosome model points away from you, and write `clip` in the "Command" fild to clip this nucleus into a tomographic view. The model can also be tilted to allow a better perception of depth in the structures.  (You can undo the clipping by typing `~clip`)
 - Adjust the structure so that you display the position of the chromosome inside the nucleus and the position of the LADs.
 - (optional): Play with the light settings (Simple, Soft, Full) and some of the other visualization settings.
