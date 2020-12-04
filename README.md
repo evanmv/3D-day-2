@@ -27,7 +27,7 @@ ssh saga.sigma2.no
 **3. Set up your own interactive environment**
 Like earlier in the week, we will use `srun` to allocate resources in an interactive enviroment:
 ```bash
-srun --ntasks=1 --mem-per-cpu=4G --time=2:00:00 --qos=devel --account=nn9987k --pty bash -i
+srun --ntasks=1 --mem-per-cpu=4G --time=2:00:00 --account=nn9987k --pty bash -i
 ```
 
 **4. Setting up today's working directory in your home directory**
@@ -58,6 +58,7 @@ module load Boost/1.72.0-iimpi-2020a
 wget https://github.com/Chrom3D/Chrom3D/archive/v1.0.2.tar.gz
 tar -zxvf v1.0.2.tar.gz
 cd Chrom3D-1.0.2/
+make
 mv Chrom3D ../
 cd ..
 ```
