@@ -105,7 +105,7 @@ Using the `awk` script above, the `lads.ids` now contains the ids (4th column) o
 - Adjust the structure so that you display the position of the chromosome inside the nucleus and the position of the LADs.
 - (optional): Play with the light settings (Simple, Soft, Full) and some of the other visualization settings.
 - Click the Save icon in the top left corer to save the structure (use .jpeg)
-- Upload the .jpg file from above this Padlet:  https://uio.padlet.org/jonaspaulsen/u03onwt5f8nuswbk
+- Upload the .jpg file from above this Padlet:  https://uio.padlet.org/jonaspaulsen/bqfdcp5wslcz0caf
 
 ```diff
 ! Where is the chromosome located in the nucleus?
