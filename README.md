@@ -25,9 +25,9 @@ ssh saga.sigma2.no
 ```
 
 **3. Set up your own interactive environment**
-Like earlier in the week, we will use `srun` to allocate resources in an interactive enviroment:
+Like earlier in the week, we will use `salloc` to allocate resources in an interactive enviroment:
 ```bash
-srun --ntasks=1 --mem-per-cpu=4G --time=2:00:00 --account=nn9986k --pty bash -i
+salloc --ntasks=1 --mem-per-cpu=4G --time=03:00:00  --account=nn9986k
 ```
 
 **4. Setting up today's working directory in your home directory**
