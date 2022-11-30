@@ -4,8 +4,8 @@ In this exercise we will be:
 - Logging into the Saga HPC system to perform analyses
 - Inspect data from Lamina Associated Domains (LADs)
 - Generating a 3D  model of chromosome 18 in human adipose stem cells
-- Visualizing the 3D model in ChimeraX
-- Report the results in a Padlet
+- Visualizing and saving the 3D model in ChimeraX
+
 
 In some places, there are orange lines
 ```diff
@@ -104,8 +104,8 @@ Using the `awk` script above, the `lads.ids` now contains the ids (4th column) o
 - Rotate the structure so that the chromosome model points away from you, and write `clip` in the "Command" fild to clip this nucleus into a tomographic view. The model can also be tilted to allow a better perception of depth in the structures.  (You can undo the clipping by typing `~clip`)
 - Adjust the structure so that you display the position of the chromosome inside the nucleus and the position of the LADs.
 - (optional): Play with the light settings (Simple, Soft, Full) and some of the other visualization settings.
-- Click the Save icon in the top left corer to save the structure (use .jpeg)
-- Upload the .jpg file from above this Padlet:  https://uio.padlet.org/jonaspaulsen/bqfdcp5wslcz0caf
+- Click the Save icon in the top left corner if you want to save the structure (use .jpeg)
+
 
 ```diff
 ! Where is the chromosome located in the nucleus?
