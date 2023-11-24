@@ -1,7 +1,7 @@
 # Generating 3D genome models from Hi-C data
 In this exercise we will be:
 - Installing a 3D visualization software called ChimeraX on your own computers
-- Logging into the Saga HPC system to perform analyses
+- Logging into the FOX HPC cluster to perform analyses
 - Inspect data from Lamina Associated Domains (LADs)
 - Generating a 3D  model of chromosome 18 in human adipose stem cells
 - Visualizing and saving the 3D model in ChimeraX
@@ -18,16 +18,16 @@ Good luck!
 **1. Install ChimeraX**
 Install ChimeraX on your own computer/laptop, following these instructions: https://www.rbvi.ucsf.edu/chimerax/download.html
 
-**2. Login to the Saga server:**
+**2. Login to the Fox server:**
 
 ```bash
-ssh saga.sigma2.no
+ssh [ec-username]@fox.educloud.no
 ```
 
 **3. Set up your own interactive environment**
 Like earlier in the week, we will use `salloc` to allocate resources in an interactive enviroment:
 ```bash
-salloc --ntasks=1 --mem-per-cpu=4G --time=03:00:00  --account=nn9989k
+salloc --ntasks=1 --mem-per-cpu=4G --time=03:00:00  --account=ec34
 ```
 
 **4. Setting up today's working directory in your home directory**
@@ -57,7 +57,7 @@ Download the `lad_chr18.bed` file to your local computer, and load the BED file 
 **7. Install Chrom3D**
 ```bash
 module purge
-module load Boost/1.72.0-iimpi-2020a
+module load Boost/1.76.0-GCC-10.3.0
 wget https://github.com/Chrom3D/Chrom3D/archive/v1.0.2.tar.gz
 tar -zxvf v1.0.2.tar.gz
 cd Chrom3D-1.0.2/
@@ -70,7 +70,7 @@ cd ..
 ```
 
 **8. Run Chrom3D based on the GTrack file**
-Run the following command on Saga:
+Run the following command on Fox:
 ```bash
 ./Chrom3D -n 100000 -r 5.0 --nucleus -y 0.01 -l 10000 -c 0.001  chr18_bead_interactions.lads.gtrack > model.cmm
 ```
