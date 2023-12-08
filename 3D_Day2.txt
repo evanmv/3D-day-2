@@ -1,0 +1,18 @@
+#GSE109924_lad_D0-rep1.bed is showing the locations and sized of LADs in hg19
+#We use
+
+ awk '$1=="chr18"' GSE109924_lad_D0-rep1.bed > lad_chr18.bed'
+
+#to pull out the chromosome 18 specific lads and save it to a new object, lad_chr18.bed
+
+#LADs seem to correspond to areas of low H3K4 monomethylation, as well as 
+#trimethylation. H3K17 acetylation not as clear.
+
+#We first have to purge all loaded modules, then load Boost
+#Then we get the Chrom3D files from github 
+#Change to that directory then mv the Chrom3D folder into the main 3D_day2 folder
+
+#We are looking at one chromosome (chr18).
+#97 beads
+#71 interactions
+#31 peripheral interactions 
