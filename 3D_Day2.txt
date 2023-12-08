@@ -16,3 +16,5 @@
 #97 beads
 #71 interactions
 #31 peripheral interactions 
+
+#The chromosome is located along the periphery of the nucleus, with the TADs located primarily up against the nuclear membrane. 
